@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import ca.georgian.assignment1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity()
+
 {
     private lateinit var binding: ActivityMainBinding
 
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity()
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+
         }
     }
 }
